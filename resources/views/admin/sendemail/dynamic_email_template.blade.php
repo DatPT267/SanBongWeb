@@ -1,0 +1,1 @@
+<p>Chúng tôi xác nhận bạn đã đặt phòng thành công, vui lòng đến trước 5p để chuẩn bị.</p>
