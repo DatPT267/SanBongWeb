@@ -305,7 +305,7 @@ class PagesController extends Controller
         $events->ngay = $request->Time;
         $events->tiet=$request->TimeZone;
 		$events->save();
-		return $events;
+	
 
 		$tr = Truong::where('namekhongdau' , $truong)->get()->first();
 		$count = PhongTN::where('id_truong' , $tr->id)->count();

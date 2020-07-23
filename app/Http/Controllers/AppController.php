@@ -116,7 +116,7 @@ class AppController extends Controller
 	}
 	public function listThongBao($id)
 	{
-		$thongbao = ThongBao::Where('iduser', $id)->get();
+		$thongbao = ThongBao::Where('iduser', $id)->orderBy('id', 'DESC')->get();
 		return $thongbao;
 	}
 	public function listCLB()

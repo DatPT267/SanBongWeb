@@ -1,7 +1,7 @@
 <div class="header delay">
     <div class="container">
         <div class="logo delay">
-            <a href="/SanBongWeb/public/trangchu">
+            <a href="{{route('trangchu')}}">
 
                 <img src="image/logo-datsan.png" alt="ĐẶT SÂN NHANH" title="ĐẶT SÂN NHANH" class="delay">
 
